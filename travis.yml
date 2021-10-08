@@ -1,0 +1,4 @@
+lanugage: ruby
+rvm:
+  -3.0.0
+  -jruby
