@@ -1,3 +1,4 @@
+Resolving dependencies...
 # frozen_string_literal: true
 
 source "https://rubygems.org"
@@ -10,9 +11,12 @@ group :development do
   gem "sinatra"
   gem "sinatra-contrib"
   gem "webrick"
-end 
+end
 
 group :test do
   gem "rspec"
   gem "capybara"
+end
+
+group :test, :development do
 end
